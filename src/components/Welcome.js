@@ -6,7 +6,7 @@ class Welcome extends React.Component {
 		return(
 			<div> 
 				<h1>Welcome</h1>
-				<img src = {myPic} alt = "my happy pic" /> 
+				<img id = "myPic" src = {myPic} alt = "my happy pic" /> 
 				<h3>Ruben Corrales</h3>
 				<p>Web Developer</p>
 				<ul>
